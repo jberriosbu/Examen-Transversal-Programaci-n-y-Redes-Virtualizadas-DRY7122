@@ -1,4 +1,3 @@
-# vlan_checker.py
 while True:
     entrada = input("Ingrese el número de VLAN (o 's' para salir): ")
     if entrada.lower() == 's':
