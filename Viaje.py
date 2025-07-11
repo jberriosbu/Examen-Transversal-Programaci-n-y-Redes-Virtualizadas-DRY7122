@@ -1,7 +1,6 @@
-# viaje.py
 import requests
 
-API_KEY = "cbb30c75-a919-45fd-ad9f-5bcc8269fd75"  # Reemplaza con tu key de GraphHopper
+API_KEY = "cbb30c75-a919-45fd-ad9f-5bcc8269fd75"  
 
 def obtener_datos_viaje(origen, destino, transporte):
     url = "https://graphhopper.com/api/1/route"
